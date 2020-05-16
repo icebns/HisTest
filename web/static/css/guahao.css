@@ -1,8 +1,10 @@
 #fph{
     border-radius: 5px;
-    height: 26px;
+    height: 29px;
     width: 160px;
     padding-left: 10px;
+    position: relative;
+    top: 3px;
     border: solid 1px #cccccc;
 }
 table{

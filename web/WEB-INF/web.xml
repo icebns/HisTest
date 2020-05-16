@@ -100,6 +100,15 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>addmid</servlet-name>
+        <servlet-class>com.icebns.web.AddmediWeb</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addmid</servlet-name>
+        <url-pattern>/addMid</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>login</servlet-name>
         <servlet-class>com.icebns.web.LoginWeb</servlet-class>
     </servlet>
@@ -117,5 +126,174 @@
         <url-pattern>/main</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>adduser</servlet-name>
+        <servlet-class>com.icebns.web.AddUserWeb</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adduser</servlet-name>
+        <url-pattern>/AddUser</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>MedicineSelectServlet</servlet-name>
+        <servlet-class>servlet.MedicineSelectServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MedicineGetByIdServlet</servlet-name>
+        <servlet-class>servlet.MedicineGetByIdServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MedicineAddServlet</servlet-name>
+        <servlet-class>servlet.MedicineAddServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LoginCl</servlet-name>
+        <servlet-class>servlet.LoginCl</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MedicineUpdateServlet</servlet-name>
+        <servlet-class>servlet.MedicineUpdateServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MedicineDeleteServlet</servlet-name>
+        <servlet-class>servlet.MedicineDeleteServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>MedicineInventory</servlet-name>
+        <servlet-class>servlet.MedicineInventory</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>MlistSelectServlet</servlet-name>
+        <servlet-class>servlet.MlistSelectServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>MedicineDelServlet</servlet-name>
+        <servlet-class>servlet.MedicineDelServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>AddCountServlet</servlet-name>
+        <servlet-class>servlet.AddCountServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>ExpiredSelectServlet</servlet-name>
+        <servlet-class>servlet.ExpiredSelectServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>UserSelectServlet</servlet-name>
+        <servlet-class>servlet.UserSelectServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>UserUpdateServlet</servlet-name>
+        <servlet-class>servlet.UserUpdateServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>UserGetByIdServlet</servlet-name>
+        <servlet-class>servlet.UserGetByIdServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>UserDelServlet</servlet-name>
+        <servlet-class>servlet.UserDelServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>UserOpenServlet</servlet-name>
+        <servlet-class>servlet.UserOpenServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <description>This is the description of my J2EE component</description>
+        <display-name>This is the display name of my J2EE component</display-name>
+        <servlet-name>MedicineSearchServlet</servlet-name>
+        <servlet-class>servlet.MedicineSearchServlet</servlet-class>
+    </servlet>
 
+
+
+
+    <servlet-mapping>
+        <servlet-name>MedicineSelectServlet</servlet-name>
+        <url-pattern>/MedicineSelectServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MedicineGetByIdServlet</servlet-name>
+        <url-pattern>/MedicineGetByIdServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MedicineAddServlet</servlet-name>
+        <url-pattern>/MedicineAddServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginCl</servlet-name>
+        <url-pattern>/LoginCl</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MedicineUpdateServlet</servlet-name>
+        <url-pattern>/MedicineUpdateServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MedicineDeleteServlet</servlet-name>
+        <url-pattern>/MedicineDeleteServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MedicineInventory</servlet-name>
+        <url-pattern>/MedicineInventory</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MlistSelectServlet</servlet-name>
+        <url-pattern>/MlistSelectServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MedicineDelServlet</servlet-name>
+        <url-pattern>/MedicineDelServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddCountServlet</servlet-name>
+        <url-pattern>/AddCountServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ExpiredSelectServlet</servlet-name>
+        <url-pattern>/ExpiredSelectServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserSelectServlet</servlet-name>
+        <url-pattern>/UserSelectServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserUpdateServlet</servlet-name>
+        <url-pattern>/UserUpdateServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserGetByIdServlet</servlet-name>
+        <url-pattern>/UserGetByIdServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserDelServlet</servlet-name>
+        <url-pattern>/UserDelServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UserOpenServlet</servlet-name>
+        <url-pattern>/UserOpenServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MedicineSearchServlet</servlet-name>
+        <url-pattern>/MedicineSearchServlet</url-pattern>
+    </servlet-mapping>
 </web-app>

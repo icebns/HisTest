@@ -58,4 +58,11 @@ public class UserDaoImpl implements UserDao {
         }, username);
 
     }
+
+    @Override
+    public int add(User user) {
+        return JdbcUtils.excuteUpdate("INSERT INTO `user`(`user_name`, `password`,  `user_type`, `del_mark`)" +
+                        "  VALUES ( ?,?,?,1);",user.getUserName(),
+                user.getPassword(),user.getUserType());
+    }
 }

@@ -5,11 +5,12 @@
   Time: 10:43
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <html>
   <head>
       <title>$Title$</title>
       <link rel="stylesheet" href="static/css/guahao.css">
+      <meta charset="utf-8">
   </head>
   <body>
   <div id="win" style="display: inline;width: 300px">

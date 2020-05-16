@@ -6,16 +6,23 @@ img{vertical-align:top;border:none}
 #header{
     height: 50px;
     width: 100%;
-    background: #20a0ff;
+    background: #20A0FF;
     line-height:50px;
     color: white;
     font-size: 25px;
-    font-family: "微软雅黑";
+    font-family: "方正舒体";
     padding-left: 10px;
+}
+#header a{
+    float: right;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 20px;
+    font-family: "微软雅黑";
 }
 #content{
     width: 1280px;
-    height: 486px;
+    height: 550px;
 }
 #left{
     float: left;

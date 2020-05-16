@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/dao/BaseDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/dao/MedicineDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/dao/UserDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/entity/Medicine.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/entity/Shop.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/entity/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/model/ConnDB.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/model/UserBean.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/model/UserBeanBO.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/AddCountServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/ExpiredSelectServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/LoginCl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/MedicineAddServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/MedicineDelServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/MedicineDeleteServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/MedicineGetByIdServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/MedicineInventory.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/MedicineSearchServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/MedicineSelectServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/MedicineUpdateServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/MlistSelectServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/UserDelServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/UserGetByIdServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/UserSelectServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/servlet/UserUpdateServlet.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/web/add.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/addcount.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/data" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/expired.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/fonts" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/icons-reference" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/img" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/search.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/showuser.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/update.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/vendor" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
