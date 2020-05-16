@@ -22,7 +22,7 @@
 </div>
 <div id="content">
     <div id="left">
-        <c:if test="${type==1||2}">
+        <c:if test="${type==1||type==2}">
             <dl>
                 <dt>挂号收费</dt>
                 <dd><a href="/registerlistweb"></a>现场挂号</dd>
@@ -49,14 +49,14 @@
             <dd>医技处置4</dd>
         </dl>
         </c:if>
-        <c:if test="${type==1||5}">
+        <c:if test="${type==1||type==5}">
         <dl>
             <dt>药房管理</dt>
             <dd><a href="/add.jsp"></a>添加药品</dd>
             <dd><a href="/MlistSelectServlet"></a>查询药品</dd>
         </dl>
         </c:if>
-        <c:if test="${type==1||6}">
+        <c:if test="${type==1||type==6}">
             <dl>
                 <dt>用户管理</dt>
                 <dd><a href="/addcount.jsp"></a>添加用户</dd>
