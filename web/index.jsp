@@ -11,6 +11,11 @@
       <title>$Title$</title>
       <link rel="stylesheet" href="static/css/guahao.css">
       <meta charset="utf-8">
+      <style>
+          #win {
+              left: 36%;
+          }
+      </style>
   </head>
   <body>
   <div id="win" style="display: inline;width: 300px">
